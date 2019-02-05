@@ -145,8 +145,6 @@ width: 100%;
         margin-right: -18px;
     }
 
-
-
 } 
 
 /* Medium devices (landscape tablets, 768px) */
@@ -160,16 +158,9 @@ width: 100%;
     }
 
     header {
-        /* background: #4aaaa5; */
-        /* font-family: 'Georgia', Times, 'Times New Roman', serif; color: white; */
         width: 640px;
-
         padding: 17px;
-        /* text-align: center; */
-        /* float: left; */
         margin-left: -22px;
-        /* margin-bottom: -10px; */
-        /* margin-top: -20px; */
     }
 
     .nav-link {
@@ -192,24 +183,50 @@ width: 100%;
 
     .wrapper {
         width: 105%;
-        /* margin-left: -10px; */
-        /* margin: 0 auto -50px; */
-        /* margin-top: -10px; */
-        /* min-height:100%; */
         height: 160px;
-        /* background-color: white; */
-        /* margin-bottom: 20px; */
-        /* border-bottom: 1px solid #7777; */
     }
     
 } 
 
 /* Extra small devices (phones, 640px) */
-/* @media only screen and (max-width: 640px) {
-    body {
-        background: red;
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 320px;
     }
-} */
+
+    .nav {
+        width: 320px;
+    }
+
+    header {
+        width:320px;
+        padding: 17px;
+        margin-left: -22px;
+    }
+
+    .nav-link {
+        clear: both;
+        overflow: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 320px;
+    }
+
+    #idAbout, #idPortfolio, #idContact {
+        width: 33.3%;
+        background: #ffffff;
+        text-align: center;
+        color: #7777;
+        padding-top: 30px;
+        float: left;
+        text-align: center;
+    }
+
+    .wrapper {
+        width: 105%;
+        height: 160px;
+    }
+}
 
 
 
