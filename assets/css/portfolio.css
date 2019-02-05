@@ -32,3 +32,36 @@ clear: both;
 background-color: white;
 padding: 10px;
 }
+
+/* Paragraph Lorem */
+p {
+    margin-top: -50px;
+    margin-bottom: -10px;
+}
+
+
+/* Medium devices (landscape tablets, 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        }
+
+
+}
+
+/* Extra small devices (phones, 640px) */
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 320px;
+    }
+
+    .column {
+        float: left;
+        width: 100%;
+        }
+}

@@ -74,3 +74,11 @@ button {
     width: 570px;
   }
 }
+
+/* Extra small devices (phones, 640px) */
+@media only screen and (max-width: 650px) {
+  form {
+    margin: 0 auto;
+    width: 285px;
+  }
+}
