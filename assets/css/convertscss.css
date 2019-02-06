@@ -60,6 +60,7 @@
   animation-name: fly-right-one;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  z-index: 5;
 }
 .bird-container--one {
   animation-duration: 15s;
